@@ -1,79 +1,6 @@
 # vsim -c work.axi_master_top 
-# Start time: 10:49:12 on Jan 08,2024
-# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
-# ** Warning: (vopt-8637) monitor/axi_master_monitor.sv(66): A modport ('axi_master_mo_mp') should not be used in a hierarchical path.
-# ** Warning: (vopt-8637) monitor/axi_master_monitor.sv(66): A modport ('axi_master_mo_mp') should not be used in a hierarchical path.
-# ** Warning: (vopt-8637) monitor/axi_master_monitor.sv(68): A modport ('axi_master_mo_mp') should not be used in a hierarchical path.
-# ** Warning: (vopt-8637) monitor/axi_master_monitor.sv(68): A modport ('axi_master_mo_mp') should not be used in a hierarchical path.
-# ** Warning: (vopt-8637) monitor/axi_master_monitor.sv(68): A modport ('axi_master_mo_mp') should not be used in a hierarchical path.
-# ** Warning: (vopt-8637) monitor/axi_master_monitor.sv(68): A modport ('axi_master_mo_mp') should not be used in a hierarchical path.
-# ** Warning: (vopt-8637) monitor/axi_master_monitor.sv(78): A modport ('axi_master_mo_mp') should not be used in a hierarchical path.
-# ** Warning: (vopt-8637) monitor/axi_master_monitor.sv(78): A modport ('axi_master_mo_mp') should not be used in a hierarchical path.
-# ** Warning: (vopt-8637) monitor/axi_master_monitor.sv(79): A modport ('axi_master_mo_mp') should not be used in a hierarchical path.
-# ** Warning: (vopt-8637) monitor/axi_master_monitor.sv(79): A modport ('axi_master_mo_mp') should not be used in a hierarchical path.
-# ** Warning: (vopt-8637) monitor/axi_master_monitor.sv(80): A modport ('axi_master_mo_mp') should not be used in a hierarchical path.
-# ** Warning: (vopt-8637) monitor/axi_master_monitor.sv(80): A modport ('axi_master_mo_mp') should not be used in a hierarchical path.
-# ** Warning: (vopt-8637) monitor/axi_master_monitor.sv(81): A modport ('axi_master_mo_mp') should not be used in a hierarchical path.
-# ** Warning: (vopt-8637) monitor/axi_master_monitor.sv(81): A modport ('axi_master_mo_mp') should not be used in a hierarchical path.
-# ** Warning: (vopt-8637) monitor/axi_master_monitor.sv(82): A modport ('axi_master_mo_mp') should not be used in a hierarchical path.
-# ** Warning: (vopt-8637) monitor/axi_master_monitor.sv(82): A modport ('axi_master_mo_mp') should not be used in a hierarchical path.
-# ** Warning: (vopt-8637) monitor/axi_master_monitor.sv(83): A modport ('axi_master_mo_mp') should not be used in a hierarchical path.
-# ** Warning: (vopt-8637) monitor/axi_master_monitor.sv(83): A modport ('axi_master_mo_mp') should not be used in a hierarchical path.
-# ** Warning: (vopt-8637) monitor/axi_master_monitor.sv(84): A modport ('axi_master_mo_mp') should not be used in a hierarchical path.
-# ** Warning: (vopt-8637) monitor/axi_master_monitor.sv(84): A modport ('axi_master_mo_mp') should not be used in a hierarchical path.
-# ** Warning: (vopt-8637) monitor/axi_master_monitor.sv(85): A modport ('axi_master_mo_mp') should not be used in a hierarchical path.
-# ** Warning: (vopt-8637) monitor/axi_master_monitor.sv(85): A modport ('axi_master_mo_mp') should not be used in a hierarchical path.
-# ** Warning: (vopt-8637) monitor/axi_master_monitor.sv(96): A modport ('axi_master_mo_mp') should not be used in a hierarchical path.
-# ** Warning: (vopt-8637) monitor/axi_master_monitor.sv(96): A modport ('axi_master_mo_mp') should not be used in a hierarchical path.
-# ** Warning: (vopt-8637) monitor/axi_master_monitor.sv(96): A modport ('axi_master_mo_mp') should not be used in a hierarchical path.
-# ** Warning: (vopt-8637) monitor/axi_master_monitor.sv(96): A modport ('axi_master_mo_mp') should not be used in a hierarchical path.
-# ** Warning: (vopt-8637) monitor/axi_master_monitor.sv(104): A modport ('axi_master_mo_mp') should not be used in a hierarchical path.
-# ** Warning: (vopt-8637) monitor/axi_master_monitor.sv(104): A modport ('axi_master_mo_mp') should not be used in a hierarchical path.
-# ** Warning: (vopt-8637) monitor/axi_master_monitor.sv(105): A modport ('axi_master_mo_mp') should not be used in a hierarchical path.
-# ** Warning: (vopt-8637) monitor/axi_master_monitor.sv(105): A modport ('axi_master_mo_mp') should not be used in a hierarchical path.
-# ** Warning: (vopt-8637) monitor/axi_master_monitor.sv(107): A modport ('axi_master_mo_mp') should not be used in a hierarchical path.
-# ** Warning: (vopt-8637) monitor/axi_master_monitor.sv(107): A modport ('axi_master_mo_mp') should not be used in a hierarchical path.
-# ** Warning: (vopt-8637) monitor/axi_master_monitor.sv(123): A modport ('axi_master_mo_mp') should not be used in a hierarchical path.
-# ** Warning: (vopt-8637) monitor/axi_master_monitor.sv(123): A modport ('axi_master_mo_mp') should not be used in a hierarchical path.
-# ** Warning: (vopt-8637) monitor/axi_master_monitor.sv(123): A modport ('axi_master_mo_mp') should not be used in a hierarchical path.
-# ** Warning: (vopt-8637) monitor/axi_master_monitor.sv(123): A modport ('axi_master_mo_mp') should not be used in a hierarchical path.
-# ** Warning: (vopt-8637) monitor/axi_master_monitor.sv(128): A modport ('axi_master_mo_mp') should not be used in a hierarchical path.
-# ** Warning: (vopt-8637) monitor/axi_master_monitor.sv(128): A modport ('axi_master_mo_mp') should not be used in a hierarchical path.
-# ** Warning: (vopt-8637) monitor/axi_master_monitor.sv(129): A modport ('axi_master_mo_mp') should not be used in a hierarchical path.
-# ** Warning: (vopt-8637) monitor/axi_master_monitor.sv(129): A modport ('axi_master_mo_mp') should not be used in a hierarchical path.
-# ** Warning: (vopt-8637) monitor/axi_master_monitor.sv(141): A modport ('axi_master_mo_mp') should not be used in a hierarchical path.
-# ** Warning: (vopt-8637) monitor/axi_master_monitor.sv(141): A modport ('axi_master_mo_mp') should not be used in a hierarchical path.
-# ** Warning: (vopt-8637) monitor/axi_master_monitor.sv(141): A modport ('axi_master_mo_mp') should not be used in a hierarchical path.
-# ** Warning: (vopt-8637) monitor/axi_master_monitor.sv(141): A modport ('axi_master_mo_mp') should not be used in a hierarchical path.
-# ** Warning: (vopt-8637) monitor/axi_master_monitor.sv(152): A modport ('axi_master_mo_mp') should not be used in a hierarchical path.
-# ** Warning: (vopt-8637) monitor/axi_master_monitor.sv(152): A modport ('axi_master_mo_mp') should not be used in a hierarchical path.
-# ** Warning: (vopt-8637) monitor/axi_master_monitor.sv(153): A modport ('axi_master_mo_mp') should not be used in a hierarchical path.
-# ** Warning: (vopt-8637) monitor/axi_master_monitor.sv(153): A modport ('axi_master_mo_mp') should not be used in a hierarchical path.
-# ** Warning: (vopt-8637) monitor/axi_master_monitor.sv(154): A modport ('axi_master_mo_mp') should not be used in a hierarchical path.
-# ** Warning: (vopt-8637) monitor/axi_master_monitor.sv(154): A modport ('axi_master_mo_mp') should not be used in a hierarchical path.
-# ** Warning: (vopt-8637) monitor/axi_master_monitor.sv(155): A modport ('axi_master_mo_mp') should not be used in a hierarchical path.
-# ** Warning: (vopt-8637) monitor/axi_master_monitor.sv(155): A modport ('axi_master_mo_mp') should not be used in a hierarchical path.
-# ** Warning: (vopt-8637) monitor/axi_master_monitor.sv(156): A modport ('axi_master_mo_mp') should not be used in a hierarchical path.
-# ** Warning: (vopt-8637) monitor/axi_master_monitor.sv(156): A modport ('axi_master_mo_mp') should not be used in a hierarchical path.
-# ** Warning: (vopt-8637) monitor/axi_master_monitor.sv(157): A modport ('axi_master_mo_mp') should not be used in a hierarchical path.
-# ** Warning: (vopt-8637) monitor/axi_master_monitor.sv(157): A modport ('axi_master_mo_mp') should not be used in a hierarchical path.
-# ** Warning: (vopt-8637) monitor/axi_master_monitor.sv(158): A modport ('axi_master_mo_mp') should not be used in a hierarchical path.
-# ** Warning: (vopt-8637) monitor/axi_master_monitor.sv(158): A modport ('axi_master_mo_mp') should not be used in a hierarchical path.
-# ** Warning: (vopt-8637) monitor/axi_master_monitor.sv(159): A modport ('axi_master_mo_mp') should not be used in a hierarchical path.
-# ** Warning: (vopt-8637) monitor/axi_master_monitor.sv(159): A modport ('axi_master_mo_mp') should not be used in a hierarchical path.
-# ** Warning: (vopt-8637) monitor/axi_master_monitor.sv(168): A modport ('axi_master_mo_mp') should not be used in a hierarchical path.
-# ** Warning: (vopt-8637) monitor/axi_master_monitor.sv(168): A modport ('axi_master_mo_mp') should not be used in a hierarchical path.
-# ** Warning: (vopt-8637) monitor/axi_master_monitor.sv(168): A modport ('axi_master_mo_mp') should not be used in a hierarchical path.
-# ** Warning: (vopt-8637) monitor/axi_master_monitor.sv(168): A modport ('axi_master_mo_mp') should not be used in a hierarchical path.
-# ** Warning: (vopt-8637) monitor/axi_master_monitor.sv(177): A modport ('axi_master_mo_mp') should not be used in a hierarchical path.
-# ** Warning: (vopt-8637) monitor/axi_master_monitor.sv(177): A modport ('axi_master_mo_mp') should not be used in a hierarchical path.
-# ** Warning: (vopt-8637) monitor/axi_master_monitor.sv(178): A modport ('axi_master_mo_mp') should not be used in a hierarchical path.
-# ** Warning: (vopt-8637) monitor/axi_master_monitor.sv(178): A modport ('axi_master_mo_mp') should not be used in a hierarchical path.
-# ** Warning: (vopt-8637) monitor/axi_master_monitor.sv(180): A modport ('axi_master_mo_mp') should not be used in a hierarchical path.
-# ** Warning: (vopt-8637) monitor/axi_master_monitor.sv(180): A modport ('axi_master_mo_mp') should not be used in a hierarchical path.
-# ** Warning: (vopt-8637) monitor/axi_master_monitor.sv(181): A modport ('axi_master_mo_mp') should not be used in a hierarchical path.
-# ** Warning: (vopt-8637) monitor/axi_master_monitor.sv(181): A modport ('axi_master_mo_mp') should not be used in a hierarchical path.
-# ** Warning: axi_master_scoreboard.sv(51): (vopt-2250) Function "write" has no return value assignment.
+# Start time: 09:57:17 on Jan 09,2024
+# ** Note: (vsim-8009) Loading existing optimized design _opt
 # //  Questa Sim
 # //  Version 10.6c linux Jul 25 2017
 # //
@@ -195,20 +122,22 @@
 # UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(215) @ 0: reporter [Questa UVM] QUESTA_UVM-1.2.3
 # UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(217) @ 0: reporter [Questa UVM]  questa_uvm::init(+struct)
 # UVM_INFO @ 0: reporter [RNTST] Running test axi_master_write_16b_test...
-# UVM_FATAL axi_master_driver.sv(39) @ 0: uvm_test_top.axi_master_env_h.axi_master_agt.axi_master_drv_h [Driver:] No virtual interface is found!
+# UVM_INFO test/axi_base_test.sv(57) @ 0: uvm_test_top [axi_master_write_16b_test] Inside BASE_TEST
+# UVM_FATAL @ 10000: uvm_test_top.axi_master_env_h.axi_master_agt.axi_master_seqr_h [uvm_test_top.axi_master_env_h.axi_master_agt.axi_master_seqr_h] Item_done() called with no outstanding requests. Each call to item_done() must be paired with a previous call to get_next_item().
 # 
 # --- UVM Report Summary ---
 # 
 # ** Report counts by severity
-# UVM_INFO :    3
+# UVM_INFO :    4
 # UVM_WARNING :    0
 # UVM_ERROR :    0
 # UVM_FATAL :    1
 # ** Report counts by id
-# [Driver:]     1
 # [Questa UVM]     2
 # [RNTST]     1
+# [axi_master_write_16b_test]     1
+# [uvm_test_top.axi_master_env_h.axi_master_agt.axi_master_seqr_h]     1
 # ** Note: $finish    : /tools/mentor/questasim_10.6c/questasim/linux/../verilog_src/uvm-1.1d/src/base/uvm_report_object.svh(292)
-#    Time: 0 ps  Iteration: 7  Region: /uvm_pkg::uvm_phase::m_run_phases
-# End time: 10:49:23 on Jan 08,2024, Elapsed time: 0:00:11
-# Errors: 0, Warnings: 111
+#    Time: 10 ns  Iteration: 1  Region: /uvm_pkg::uvm_task_phase::execute
+# End time: 09:57:22 on Jan 09,2024, Elapsed time: 0:00:05
+# Errors: 0, Warnings: 38
