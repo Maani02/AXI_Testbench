@@ -66,7 +66,7 @@ task axi_master_monitor::run_phase(uvm_phase phase);
               do begin
                 @(posedge vif.axi_master_mo_mp.clk);
               end
-              while(vif.axi_master_mo_mp.axi_master_mo_cb.s_axi_awvalid != 1 && vif.axi_master_mo_mp.axi_master_mo_cb.s_axi_awready != 1);
+              while(vif.axi_master_mo_mp.axi_master_mo_cb.s_axi_awvalid != 1 || vif.axi_master_mo_mp.axi_master_mo_cb.s_axi_awready != 1);
 //               req_op.s_axi_awid    = vif.axi_master_mo_mp.axi_master_mo_cb.s_axi_awid ;
 //               req_op.s_axi_awaddr  = vif.axi_master_mo_mp.axi_master_mo_cb.s_axi_awaddr;
 //               req_op.s_axi_awlen   = vif.axi_master_mo_mp.axi_master_mo_cb.s_axi_awlen;
@@ -94,7 +94,7 @@ task axi_master_monitor::run_phase(uvm_phase phase);
               do begin
                 @(posedge vif.axi_master_mo_mp.clk);
               end
-                while(vif.axi_master_mo_mp.axi_master_mo_cb.s_axi_wvalid != 1 && vif.axi_master_mo_mp.axi_master_mo_cb.s_axi_wready != 1);
+              while(vif.axi_master_mo_mp.axi_master_mo_cb.s_axi_wvalid != 1 || vif.axi_master_mo_mp.axi_master_mo_cb.s_axi_wready != 1);
               while(1) begin: WHILE_LOOP_WRITE
 //                req_op.s_axi_wdata[i] = vif.axi_master_mo_mp.axi_master_mo_cb.s_axi_wdata;
 //                req_op.s_axi_wstrb[i] = vif.axi_master_mo_mp.axi_master_mo_cb.s_axi_wstrb;
@@ -121,7 +121,7 @@ task axi_master_monitor::run_phase(uvm_phase phase);
           do begin
             @(posedge vif.axi_master_mo_mp.clk);
           end
-          while(vif.axi_master_mo_mp.axi_master_mo_cb.s_axi_bvalid != 1 && vif.axi_master_mo_mp.axi_master_mo_cb.s_axi_bready != 1);
+          while(vif.axi_master_mo_mp.axi_master_mo_cb.s_axi_bvalid != 1 || vif.axi_master_mo_mp.axi_master_mo_cb.s_axi_bready != 1);
 //          req_op.s_axi_bid      = vif.axi_master_mo_mp.axi_master_mo_cb.s_axi_bid;
 //          req_op.s_axi_bresp    = vif.axi_master_mo_mp.axi_master_mo_cb.s_axi_bresp;
 //          req_op.s_axi_bvalid   = vif.axi_master_mo_mp.axi_master_mo_cb.s_axi_bvalid;
@@ -139,7 +139,7 @@ task axi_master_monitor::run_phase(uvm_phase phase);
               do begin
                 @(posedge vif.axi_master_mo_mp.clk);
               end
-              while(vif.axi_master_mo_mp.axi_master_mo_cb.s_axi_arvalid != 1 && vif.axi_master_mo_mp.axi_master_mo_cb.s_axi_arready != 1);
+              while(vif.axi_master_mo_mp.axi_master_mo_cb.s_axi_arvalid != 1 || vif.axi_master_mo_mp.axi_master_mo_cb.s_axi_arready != 1);
 //               req_op.s_axi_arid    = vif.axi_master_mo_mp.axi_master_mo_cb.s_axi_arid ;
 //               req_op.s_axi_araddr  = vif.axi_master_mo_mp.axi_master_mo_cb.s_axi_araddr;
 //               req_op.s_axi_arlen   = vif.axi_master_mo_mp.axi_master_mo_cb.s_axi_arlen;
@@ -166,7 +166,7 @@ task axi_master_monitor::run_phase(uvm_phase phase);
               do begin
                 @(posedge vif.axi_master_mo_mp.clk);
               end
-              while(vif.axi_master_mo_mp.axi_master_mo_cb.s_axi_rvalid != 1 && vif.axi_master_mo_mp.axi_master_mo_cb.s_axi_rready != 1);
+              while(vif.axi_master_mo_mp.axi_master_mo_cb.s_axi_rvalid != 1 || vif.axi_master_mo_mp.axi_master_mo_cb.s_axi_rready != 1);
             while(1) begin: WHILE_LOOP_READ
 //                req_op.s_axi_rid = vif.axi_master_mo_mp.axi_master_mo_cb.s_axi_rid;
 //                req_op.s_axi_rdata[j] = vif.axi_master_mo_mp.axi_master_mo_cb.s_axi_rdata;
