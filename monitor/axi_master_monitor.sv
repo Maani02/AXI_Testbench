@@ -38,6 +38,7 @@ endclass : axi_master_monitor
 function axi_master_monitor::new(string name = "axi_master_monitor", uvm_component parent = null);
   super.new(name, parent);
   item_got_port   = new("item_got_port",this);
+ // req_op = new("req_op",this);
 endfunction : new
 
 //Function: Build phase
@@ -45,7 +46,7 @@ function void axi_master_monitor::build_phase(uvm_phase phase);
   super.build_phase(phase);
   if(!uvm_config_db#(virtual axi_master_interface)::get(this, "", "vif", vif))
       `uvm_fatal("Monitor: ", "No vif is found!")
-   
+req_op=axi_master_transaction::type_id::create("req_op");   
 endfunction : build_phase 
 
 //Function: connect phase
@@ -128,7 +129,7 @@ task axi_master_monitor::run_phase(uvm_phase phase);
             $cast(req_op.s_axi_bid, vif.axi_master_mo_mp.axi_master_mo_cb.s_axi_bid);
             $cast(req_op.s_axi_bresp, vif.axi_master_mo_mp.axi_master_mo_cb.s_axi_bresp);
             //$cast(req_op.s_axi_bvalid, vif.axi_master_mo_mp.axi_master_mo_cb.s_axi_bvalid);
-            //$cast(req_op.s_axi_bready, vif.axi_master_mo_mp.axi_master_mo_cb.s_axi_bready);
+           // $cast(req_op.s_axi_bready, vif.axi_master_mo_mp.axi_master_mo_cb.s_axi_bready);
             
           end : WRITE_RESPONSE   
       end : WRITE_PROCESS

@@ -61,8 +61,8 @@ task axi_master_driver::run_phase(uvm_phase phase);
     	    axi_write_task();
     	    axi_read_task();
           join
-        end
       seq_item_port.item_done();// SEQUENCE-DRIVER HANDSHAKE MECHANISM
+    end
     end
 endtask
  
