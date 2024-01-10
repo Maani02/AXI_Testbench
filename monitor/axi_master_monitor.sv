@@ -113,6 +113,7 @@ task axi_master_monitor::run_phase(uvm_phase phase);
                   break;
                 end
                   i++;
+                @(posedge vif.axi_master_mo_mp.clk)
               end: WHILE_LOOP_WRITE   
             end : WRITE_DATA  
           join
@@ -187,6 +188,7 @@ task axi_master_monitor::run_phase(uvm_phase phase);
                   break;
                 end
                   j++;
+              @(posedge vif.axi_master_mo_mp.clk)
                 end: WHILE_LOOP_READ
               end : READ_PROCESS
             join_any
