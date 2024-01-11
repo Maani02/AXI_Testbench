@@ -33,9 +33,8 @@ end
 axi_master_interface tif (clk, rst);
 
 axi_ram dut(
-      .clk,
-      .rst,
-
+      .clk(clk),
+      .rst(rst),
       .s_axi_awid     (tif.s_axi_awid   ),
       .s_axi_awaddr   (tif.s_axi_awaddr ),
       .s_axi_awlen    (tif.s_axi_awlen  ),
