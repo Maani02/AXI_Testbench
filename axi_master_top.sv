@@ -76,5 +76,6 @@ axi_ram dut(
   initial begin
     uvm_config_db#(virtual axi_master_interface)::set(null, "", "vif", tif);
     run_test("axi_master_write_16b_test");
+   #500 $finish;
   end
 endmodule
