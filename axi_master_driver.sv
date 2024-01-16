@@ -74,7 +74,7 @@ task axi_master_driver::axi_write_task();
       if(req.s_axi_awvalid)
         begin
          @(posedge vif.axi_master_dr_mp.clk)
-          if(vif.axi_master_dr_mp.axi_master_dr_cb.s_axi_awready)
+        //  if(vif.axi_master_dr_mp.axi_master_dr_cb.s_axi_awready)
             begin
                write_addr_data.get(1);
                vif.axi_master_dr_mp.axi_master_dr_cb.s_axi_awaddr <= req.s_axi_awaddr;
@@ -96,7 +96,7 @@ task axi_master_driver::axi_write_task();
         begin
           @(posedge vif.axi_master_dr_mp.clk)
           begin
-            if(vif.axi_master_dr_mp.axi_master_dr_cb.s_axi_wready)
+           // if(vif.axi_master_dr_mp.axi_master_dr_cb.s_axi_wready)
                   begin
                     int len = int '(req.s_axi_awlen);
                     for(int i=0;i<=len;i++)
@@ -143,7 +143,7 @@ fork
         begin
           @(posedge vif.axi_master_dr_mp.clk)
           begin
-            if(vif.axi_master_dr_mp.axi_master_dr_cb.s_axi_arready)
+        //    if(vif.axi_master_dr_mp.axi_master_dr_cb.s_axi_arready)
               begin
               vif.axi_master_dr_mp.axi_master_dr_cb.s_axi_arid <= req.s_axi_arid;
               vif.axi_master_dr_mp.axi_master_dr_cb.s_axi_araddr <= req.s_axi_araddr;
